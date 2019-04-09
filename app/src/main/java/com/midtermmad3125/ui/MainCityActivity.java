@@ -53,7 +53,7 @@ public class MainCityActivity extends AppCompatActivity
 
                 String mJSONObject = mJSONArray.getString("city");
                 // if(mJSONObject.has("city")) {
-                JSONObject city = mJSONObject.getString
+                JSONObject city = mJSONObject.toString();
                 Log.d("objTag",mJSONObject);
                 //  }
 
