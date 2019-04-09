@@ -21,15 +21,15 @@ import java.nio.charset.StandardCharsets;
 
 public class MainCityActivity extends AppCompatActivity
 {
-    Button b1;
+    Button edtWeather;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        b1 = findViewById(R.id.edtWeather);
-        b1.setOnClickListener(new View.OnClickListener() {
+        edtWeather = findViewById(R.id.edtWeather);
+        edtWeather.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(MainCityActivity.this,WeatherListActivity.class);
